@@ -18,9 +18,9 @@ Team member: Akash Singh
 * Metadata editor
 * Learn your hobby, automatically create new playlist
 * etc
-
+<!-- 
 ### Installing
-The app will be available in Google Play Store soon.
+The app will be available in Google Play Store soon. -->
 ```
 Comming soon
 ```
