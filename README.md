@@ -1,52 +1,70 @@
 # concertmaster_player
+# Ashruth - Redefine the Music Player
+**A pretty UI&UX Music Player**
+![hack-o-relay-readme](https://user-images.githubusercontent.com/90858515/170770385-64ad5339-0ffe-4f56-b439-73af3c9479d8.png)
+TEAM : ROG
+Project Name: ASHRUTH
+T R A C K 2
+Prototyping/Wireframing
+Create a music player
+Team member: Akash Singh 
+## Features
+* Dark Theme Style with wallpaper as background
+* Single activity, all fragments architecture with fancy animation
+* Play the sample/preview of a song, audio visualizer progress bar
+* Play Controller is able to be opened everywhere
+* Large artist image loading, and can be used as background
+* View lyrics, view song details
+* Metadata editor
+* Learn your hobby, automatically create new playlist
+* etc
 
-[Concertmaster](https://getconcertmaster.com) is a classical music front-end for Spotify.
-
-It's splitted in several projects. **This one provides only the HTML/JS interface.** It uses some PHP to deal with the server-side part of OAuth. All data comes from an API which, in its turn, uses the Spotify API. Spotify doesn't allow multiple apps using the same API key, so you can't fork only the player and use the Concertmaster API - you have to fork both.
-
-## Usage
-
-It's a web app, so just [open it](https://concertmaster.app) in your browser! (It doesn't work on the iPhone because the Spotify SDK isn't compatible with it.)
-
-The player itself is full of features, so there is a [wiki](https://getconcertmaster.com/help) explaining them all.
-
-## How to build
-
-1. Fork and clone this git repository to your webserver (for example, in the `/var/www/` folder)
-2. Fork the [API repository](https://github.com/openopus-org/concertmaster_api) and clone it as well 
-3. Create an `inc.php` file from the example:
-
-```bash
-cd /var/www/concertmaster_player/lib/
-cp inc-example.php inc.php
-vim inc.php
+### Installing
+The app will be available in Google Play Store soon.
 ```
-4. Change variable values in the `lib/inc.php` accordingly to your webserver and Spotify API params (you can create a Spotify dev account [here](https://developer.spotify.com/))
-5. Edit the `html/player/js/lib.js` file and change variable values accordingly to your domains and Spotify API key params
-6. It's better to change the Google Analytics tag to your own account. Please check the `html/player/index.html` file
+Comming soon
+```
 
-## Domains
 
-There are two public directories in the project and they must have their own virtual hosts on your webserver:
-- `html/player` it's the main player. For example, we host it at [concertmaster.app](https://concertmaster.app)
-- `html/share` it's the share page. For example, we host it at [cmas.me](https://cmas.me)
-
-The main player *must* have SSL enabled (it's a DRM rule). You can use free [Let's Encrypt](https://letsencrypt.org/)-provided certificates, they're perfectly fine.
-
-### Development environment
-
-We have adopted fake `.local` domains (concertmaster.local, cmas.local) for our dev webserver, but you can change the TLD in the `html/player/js/lib.js` file. 
-
-Please note that you still need the main player to serve with HTTPS, so you'll have to [create self-signed phony SSL certificates](https://medium.com/@tbusser/creating-a-browser-trusted-self-signed-ssl-certificate-2709ce43fd15) for your dev environment.
-
-## Contributing with code
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## Contributing with data
-Concertmaster composers and works information come from [Open Opus](https://openopus.org), a free, wiki-style, open source database of classical music metadata. You can review existing info or add new entries to the database - any help will be appreciated!
-
-## Contributing with money
-Concertmaster is free to use but it runs on web servers that cost us money. You can help us by supporting us on [Patreon](https://www.patreon.com/openopus) - any amount is more than welcome!
-
-## License
-[GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+## Screenshots
+</br>
+<div align="center">
+   <table align="center" border="0" >
+  <tr>
+    <td>
+<img width="360"
+src="https://user-images.githubusercontent.com/33343210/61610738-2c46aa80-ac84-11e9-80fa-bbe8c6d4119a.png"/>
+       <td><img width="360"
+src="https://user-images.githubusercontent.com/33343210/61610968-c3abfd80-ac84-11e9-9c8a-7ac5c9e257ff.jpg"/>
+    </td>
+     <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61610657-edb0f000-ac83-11e9-8b89-eb205d8ac518.png"/></td>
+  </table>
+  </div>
+</br>
+<div align="center">
+  <table align="center" border="0" >
+  <tr>
+    <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61611561-45e8f180-ac86-11e9-932a-d0cbcd388048.png"/></td>
+     <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61611407-e38ff100-ac85-11e9-8b70-f083436cf3d4.png"/></td>
+     <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61611355-c6f3b900-ac85-11e9-9b0c-c3c3a4734474.png"/></td>
+  </tr>
+</table>
+  </div>
+</br>
+<div align="center">
+  <table align="center" border="0" >
+  <tr>
+    <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61610594-c3f7c900-ac83-11e9-8ccf-1a6d989631d2.png"/></td>
+    <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61611516-2d78d700-ac86-11e9-9187-c53e91a2b891.png"/></td>
+     <td> <img width="360"
+src="https://user-images.githubusercontent.com/33343210/61764970-4eb40180-ae05-11e9-9903-241fa144582b.png"/></td>
+  </tr>
+</table>
+  </div>
+</br>
