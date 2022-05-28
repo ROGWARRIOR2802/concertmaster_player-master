@@ -1,0 +1,90 @@
+#container.page {
+    border-radius: 0;
+    height: inherit;
+    width: inherit;
+}
+
+#sidebar {
+    height: calc(100% - 116px);
+    /*padding-bottom: 20px;*/
+}
+
+#container.page #toolbar .logo a {
+    width: -webkit-fill-available;
+    height: 48px;
+    background-size: auto 20px;
+    background-position: center;
+    margin: auto;
+}
+
+#container.page #toolbar {
+    height: 50px;
+}
+
+#container.page #togglebar {
+    display: none;
+}
+
+#container.page #nowplaying {
+    height: -webkit-fill-available;
+    overflow: auto;
+}
+
+#container.page #nowplaying.up #playertracks {
+    visibility: visible;
+    margin-top: 26px;
+}
+
+#playertracks li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+#playertracks .duration {
+    font-size: 10px;
+}
+
+#container.page #playertracks .tracktitle {
+    width: 80%;
+}
+
+#container.page #playerinfo .cover img {
+    width: 100px;
+    height: 100px;
+}
+
+#playerinfo .composer {
+    font-size: 16px;
+}
+
+#playerinfo .work {
+    font-size: 16px;
+}
+
+#nowplaying .performers ul li {
+    font-size: 13px;
+}
+
+/*
+#playercontrols #playpause {
+    margin: 4px 15px 0 30px;
+    background-size: 33px;
+}
+*/
+
+#playerbar {
+    width: -webkit-fill-available;
+    margin: 0 auto;
+}
+
+#playercontrols .calltoaction a {
+    width: inherit;
+    padding: 26px 0px;
+    font-size: 12px;
+}
+
+#playercontrols #durationglobal {
+    padding: 22px 11px 0 0;
+    font-size: 11px;
+    margin: 7px;
+}
