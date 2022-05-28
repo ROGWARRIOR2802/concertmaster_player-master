@@ -25,7 +25,7 @@ The app will be available in Google Play Store soon.
 Comming soon
 ```
 
-
+<!-- 
 ## Screenshots
 </br>
 <div align="center">
@@ -68,3 +68,4 @@ src="https://user-images.githubusercontent.com/33343210/61764970-4eb40180-ae05-1
 </table>
   </div>
 </br>
+ -->
